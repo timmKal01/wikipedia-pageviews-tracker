@@ -1,0 +1,30 @@
+{
+    "title": "Wikipedia Pageviews Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "article": {
+            "title": "Article title",
+            "type": "string",
+            "editor": "textfield",
+            "description": "The exact Wikipedia article title, e.g. \"Bitcoin\" or \"Elon Musk\" (spaces are fine)."
+        },
+        "project": {
+            "title": "Project",
+            "type": "string",
+            "editor": "textfield",
+            "description": "The Wikipedia language edition, e.g. \"en.wikipedia\", \"de.wikipedia\", \"ja.wikipedia\".",
+            "default": "en.wikipedia"
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days of daily pageview history to return, counting back from yesterday (Wikimedia's data has a short reporting lag).",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 180
+        }
+    },
+    "required": ["article"]
+}

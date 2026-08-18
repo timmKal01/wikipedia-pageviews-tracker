@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Wikipedia Pageviews Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Daily pageviews",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
