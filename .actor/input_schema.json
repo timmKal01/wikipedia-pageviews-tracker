@@ -7,7 +7,9 @@
             "title": "Article title",
             "type": "string",
             "editor": "textfield",
-            "description": "The exact Wikipedia article title, e.g. \"Bitcoin\" or \"Elon Musk\" (spaces are fine)."
+            "description": "The exact Wikipedia article title, e.g. \"Bitcoin\" or \"Elon Musk\" (spaces are fine).",
+            "prefill": "Bitcoin",
+            "default": "Bitcoin"
         },
         "project": {
             "title": "Project",
