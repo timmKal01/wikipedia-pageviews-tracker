@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "wikipedia-pageviews-tracker",
-    "title": "Wikipedia Pageviews Tracker",
+    "title": "Wikipedia Pageviews: Daily Traffic by Article",
     "description": "Get the daily pageview history for any Wikipedia article via the official Wikimedia REST API: spot traffic spikes, gauge public attention on a topic, or track interest over time. For PR, media-monitoring, and research teams.",
     "version": "0.1",
     "meta": {
