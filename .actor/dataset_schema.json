@@ -1,0 +1,38 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "article",
+                    "project",
+                    "date",
+                    "views"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "article": {
+                        "label": "Article",
+                        "format": "text"
+                    },
+                    "project": {
+                        "label": "Project",
+                        "format": "text"
+                    },
+                    "date": {
+                        "label": "Date",
+                        "format": "text"
+                    },
+                    "views": {
+                        "label": "Views",
+                        "format": "number"
+                    }
+                }
+            }
+        }
+    }
+}
